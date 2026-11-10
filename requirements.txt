@@ -1,0 +1,4 @@
+# Python 3.9+
+PyQt6>=6.6
+# PyMySQL[rsa] 会额外安装 cryptography，用于 MySQL 8 的 caching_sha2_password 认证
+PyMySQL[rsa]>=1.1

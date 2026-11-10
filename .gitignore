@@ -1,0 +1,39 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ===== 虚拟环境 =====
+.venv/
+venv/
+env/
+ENV/
+
+# ===== 本地配置与备份（可能包含数据库账号 / 密码） =====
+config.json
+config.json.bak-*
+*.bak
+*.bak-*
+*.tmp
+
+# ===== PyInstaller / 打包产物 =====
+build/
+dist/
+dist_output/
+*.spec
+*.exe
+
+# ===== 运行日志与导出结果 =====
+*.log
+*.csv
+export*.json
+*_cookie*.json
+*_cookies*.json
+
+# ===== 编辑器 / 系统文件 =====
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
