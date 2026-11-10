@@ -47,7 +47,7 @@ MySQL 查询工具，可将查询结果中的 Cookie 转换为 Cookie-Editor 扩
 启动：
 
 ```bash
-python 小云雀查询Cookie.py
+可用py脚本管理控制台管理启用
 ```
 
 配置保存在 `%APPDATA%\小云雀查询\config.json`，可用环境变量 `XYQ_CONFIG` 指定其它路径。首次运行使用示例数据库；界面中的「恢复示例」会重置为示例配置并自动备份原文件。
@@ -61,7 +61,7 @@ PyInstaller 图形化打包辅助工具，支持选择入口脚本、图标、�
 启动：
 
 ```bash
-python py打包exe.py
+可用py脚本管理控制台管理启用
 ```
 
 ## 说明
